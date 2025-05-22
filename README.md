@@ -11,3 +11,15 @@ Esse script shell coleta informações básicas da máquina, de acordo com o arg
 ./minfo.sh uptime     # Mostra o tempo que a máquina está ligada
 ./minfo.sh disk       # Mostra o uso do disco da partição /
 ./minfo.sh all        # Mostra as três informações acima
+```
+
+### Uso incorreto:
+
+Se o argumento passado não for um dos quatro acima, o script exibirá a seguinte mensagem:
+
+Uso: ./minfo.sh {hostname|uptime|disk|all}
+
+
+
+
+
